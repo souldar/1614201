@@ -1,0 +1,15 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "together",
+	"description": "1614201 we are 伐木累",
+	"appid": "wxce87c4c72f8b8df9",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"condition": {}
+}
