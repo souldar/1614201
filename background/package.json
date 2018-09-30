@@ -1,0 +1,13 @@
+{
+  "name": "background",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bert_cai",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.5.3",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
