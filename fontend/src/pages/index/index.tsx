@@ -62,7 +62,7 @@ class Index extends Component {
    * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
    */
     config: Config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: 'We are 伐木累'
   }
 
   componentWillReceiveProps (nextProps) {
@@ -76,13 +76,17 @@ class Index extends Component {
   componentDidHide () { }
 
   render () {
+    const data = [1, 2, 3, 4];
+    const cardList = data.map((card, index) => {
+      return (
+        <View key={ String(index) } className="card">
+          <Text>{ card }</Text>
+        </View>
+      );
+    });
     return (
       <View className='index'>
-        <Button className='add_btn' onClick={this.props.add}>+</Button>
-        <Button className='dec_btn' onClick={this.props.dec}>-</Button>
-        <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
-        <View><Text>{this.props.counter.num}</Text></View>
-        <View><Text>Hello, World</Text></View>
+        { cardList }
       </View>
     )
   }
