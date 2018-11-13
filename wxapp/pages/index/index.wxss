@@ -1,21 +1,68 @@
 /**index.wxss**/
-.userinfo {
+.container{
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
 }
 
-.userinfo-avatar {
+.classLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.classLogoText1{
+  display: flex;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  font-size: 78rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.classLogoIcon{
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.classLogoText2{
+  display: flex;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  font-size: 78rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 300px;
+}
+
+.loginCheck{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+}
+
+.loginCheck::after{
+  border: none;
+  border-radius: 0rpx;
+}
+.loginCheck[plain]{
+  border: none;
 }
