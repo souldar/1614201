@@ -5,9 +5,18 @@
   "author": "bert_cai",
   "license": "MIT",
   "devDependencies": {
+    "kcors": "^2.2.2",
     "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
     "koa-route": "^3.2.0",
     "koa-router": "^7.4.0",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "mysql": "^2.16.0",
+    "sequelize-auto": "^0.4.29"
+  },
+  "dependencies": {
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
   }
 }
