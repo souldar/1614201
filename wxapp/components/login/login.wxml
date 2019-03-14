@@ -1,6 +1,0 @@
-<view class="login-mask-view">
-  <view class="login-container">
-    <view class="login-title">再忙也要常联系~</view>
-    <view class="login-action">授权登录</view>
-  </view>
-</view>

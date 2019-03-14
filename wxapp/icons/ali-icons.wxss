@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1075389_bihhii38ia.eot?t=1551935102446'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1075389_bihhii38ia.eot?t=1551935102446#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOkAAsAAAAAB5QAAANXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCeIJhATYCJAMMCwgABCAFhG0HOhurBsiemjzZwJBAgnxgFQQwfzyCaqzs2d1HVKAAFZDi8oAoX9hXiTIROsbGAxpxg3lVFnJOarsiupmk0x2nOUA/Pz6Si9fBL/A9XZDBBSgVyun/53BpU3x+q+0yx+SoF2AcUEBjL7I7kAPyW2R3BnlRuwnU6zOXx2pNUxfwV1iDAvEkSyLwz+mUluJQK1TXzCziM0Bt+vB8gk/h78d/E1FLUpVZI9duqk2g7FfTtwqvVe7lIwB/OguEeWSMAwpxUmvb4xXHxnmp12Te7dnVipCmCrrdhDxdUb3Rf7xEVLMKG8EwlqaL4rtkgt8VXCx3/Q6qSeIN8IWoOoeOLj1J8fGeNeerPbbEkle6blj01We14utG7n2tlaq2mXYs2dJ2RdXKa2PpumHoJXrXGbVox5bYa3rOLnHLbHIN3qbR0Lpj4gyj+yFKKzIdGNmikvbaLCwdNnS94JHaNtN4zexDOvYYa+s5tHpOnFugbju/cEqhM1CZJnd2iJP6zvXz+/e76nN9KTu/+jQ5UCl0Tskv7A75VF+7KTOtJwBloR+z59riH6E6AJHWmVVVvSG7uoXN3ZHdm4PVd30AFb2ZFTWHprrCFpejkabZhxLKyyIiXDZlp+aRclTDrl3hUEVN5puXfBsn1Af1J3X+rKi2xT9DdsrOly1YsSwqfO/eZOes73Wp/45td/nQwazcrMfgDEClfDtDmjjfzbF/6m98vyLEjoYV/a8NKuDbvvsrsLdSAXCD2vuwB/+FD6wqutDS56LyXJ5pz+YzHgnsr8ffKIV2b4crusCFhFpdKSQ1eiGr1Y8s2HGo0mAKqtVagHpjauc36EB5iVKHUesRhFbHIWn2FbJWT5EF+waqdPsO1VojQ72diFqxwWDcB1ZSLDJsguOLoYwcduIYWWBU3IGl+VaRZoUhrgdTRQ7CdE4oJmuxHdMpxigLpAzGCCTUYYM1aD9stTqgkzomMGKcmTFnAc+Tui9xyGEDgVZQmIjBTKBxi0EyxMGO+PWZwNLPd8Ak81mJaEtFjbUHRink5qF0HAGArJXZQRW3co9iAUkGhiEggnKwgWqQBbPaMQfIWd9tAoYwHPOAiFMBntQiUBm3vML2fhugnjU6R4ocRc27LNol13zfMMs8X7QDAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_1075389_bihhii38ia.woff?t=1551935102446') format('woff'),
+  url('//at.alicdn.com/t/font_1075389_bihhii38ia.ttf?t=1551935102446') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1075389_bihhii38ia.svg?t=1551935102446#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 200rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangqu:before {
+  content: "\e64c";
+}
+
+.icon-xihuan:before {
+  content: "\e742";
+}
