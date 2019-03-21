@@ -96,7 +96,7 @@ async function insertData (data) {
     })
   await userInfo.create(data).then(() => {
     return {
-      flag: true,git
+      flag: true,
       msg: '插入成功'
     }
   }).catch(err => {
